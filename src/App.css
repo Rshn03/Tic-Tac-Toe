@@ -1,0 +1,44 @@
+/* src/App.css */
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(1, 191, 254);
+  border: 2px solid #000;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(243, 101, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: rgb(229, 77, 7);
+}
